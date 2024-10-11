@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="costumer" />
         <module name="fraudd" />
+        <module name="costumer" />
+        <module name="eureka-server" />
         <module name="w" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="costumer" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="fraudd" options="-parameters" />
       <module name="w" options="-parameters" />
     </option>
